@@ -2,6 +2,9 @@ branch-defaults:
   default:
     environment: null
     group_suffix: null
+  master:
+    environment: hello-node-dev
+    group_suffix: null
 global:
   application_name: hello-node
   branch: null
