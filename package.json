@@ -2,6 +2,7 @@
   "name": "hello-node",
   "version": "1.0.0",
   "description": "Simple Hello-World Node App for AWS Elastic Beanstalk",
+  "repository": "https://github.com/garystafford/hello-node-beanstalk",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
