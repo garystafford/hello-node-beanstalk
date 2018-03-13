@@ -2,9 +2,7 @@
 
 Very simple Node.js/AWS Elastic Beanstalk application.
 
-Objective is to create one app, `hello-node`, and two environments, `hello-node-v1` and `hello-node-v2`, using Elastic Beanstalk CLI (`eb`).
-
-Also, project create an AWS SQS Queue, with alarms, as a demo of `.ebextensions` capabilities.
+Objective is to create one app, `hello-node`, and two environments, `hello-node-v1` and `hello-node-v2`, using Elastic Beanstalk CLI (`eb`). Project also creates an AWS SQS Queue, with alarms, as a demo of `.ebextensions` capabilities. Deployments are done using AWS CodePipeline.
 
 ```bash
 eb --help

@@ -3,7 +3,7 @@ var express = require('express'),
     port = process.env.PORT || 3000;
 
 app.get('/', function(req, res){
-  res.send('Hello Code Pipeline and Elastic Beanstalk - v2')
+  res.send('Hello AWS Elastic Beanstalk: v2')
 })
 
 app.listen(port, function(){
