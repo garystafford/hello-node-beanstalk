@@ -19,7 +19,7 @@ eb scale 2 hello-node-v2
 eb open hello-node-v1
 
 # swap source dns with destination
-eb swap hello-node-v2 -n hello-node-v1
+eb swap hello-node-v1 -n hello-node-v2
 
 eb config save hello-node-v1 --cfg hello-node-v1-sc
 
